@@ -1,0 +1,29 @@
+<!--pages/err-zdj/err-zdj.wxml-->
+<view class="section">
+  <form>
+    <view class="classname">
+      <form>
+        <radio-group bindchange="checkboxChange">
+          <view class="classname">
+            <radio value="value" bindtouchend="selection" data-text="终端机位置错误"/>终端机位置错误</view>
+          <view class="classname">
+            <radio value="value" bindtouchend="selection" data-text="终端机出伞错误"/>终端机出伞错误</view>
+          <view class="classname">
+            <radio value="value" bindtouchend="selection" data-text="终端机还伞错误"/>终端机还伞错误</view>
+          <view class="classname">
+            <radio value="value" bindtouchend="selection" data-text="终端机显示错误"/>终端机显示错误</view>
+          <view class="classname">
+            <radio value="value" bindtouchend="selection" data-text="终端机死机"/>终端机死机</view>
+          <view class="classname">
+            <radio value="value" bindtouchend="selection" data-text="终端机物损"/>终端机物损</view>
+          <view class="classname">
+            <radio value="value" bindtouchend="selection" data-text="终端机异常报警"/>终端机异常报警</view>
+          <view class="classname">
+            <radio value="其他" bindtouchend="other" data-text="其他" checked="{{checked}}"/>其他</view>
+        </radio-group>
+        <textarea placeholder="简要说明" name="textarea" data-text="{{text}}" bindinput="get_text" bindfocus="atfocus"/>
+        <button type="primary" form-type="submit" bindtouchend="ok">确定</button>
+      </form>
+    </view>
+  </form>
+</view>

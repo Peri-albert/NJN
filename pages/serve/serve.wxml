@@ -1,0 +1,18 @@
+<view class="section">
+  <navigator url="../map/map" hover-class="none">
+    <view class="zdj">
+      <image src="../../images/serve/location-icon.png"></image>
+      <view class="zdj-text">
+        <text>终端机查询</text>
+      </view>
+    </view>
+  </navigator>
+  <navigator url="../order/order" hover-class="none">
+    <view class="order">
+      <image src="../../images/serve/order.png"></image>
+      <view class="order-text">
+        <text>我的订单</text>
+      </view>
+    </view>
+  </navigator>
+</view>

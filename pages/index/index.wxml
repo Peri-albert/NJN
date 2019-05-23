@@ -1,0 +1,20 @@
+<view class="section">
+  <view class="loading" style="{{loading}}">
+    <image src="../../images/other/loading-line.png" class="loading-line rotate"></image>
+    <image src="../../images/other/loading-text.png" class="loading-text"></image>
+  </view>
+  <view class="box">
+    <!--时间地点天气温度  相应改动-->
+    <view class="data">
+      <view class="data-weather" style="{{w_code}}"></view>
+      <view class="data-location">
+        <text>{{location}}</text>
+        <text>{{date}}</text>
+        <text>{{weather}}</text>
+      </view>
+    </view>
+    <view class="temperature">
+      {{temp}}
+    </view>
+  </view>
+</view>

@@ -1,0 +1,29 @@
+<!--pages/contact/contact.wxml-->
+<view class="section">
+  <view class="logo">
+    <image src="../../images/mine/logo.png"></image>
+  </view>
+  <view class="menu">
+    <navigator url="#" hover-class="none">
+      <view class="gzh">
+        <image src="../../images/mine/contact/gzh.png"></image>
+        <text>微信公众号</text>
+        <text>TheBlueUmbrella</text>
+      </view>
+    </navigator>
+    <navigator url="#" hover-class="none">
+      <view class="tel">
+        <image src="../../images/mine/contact/tel.png"></image>
+        <text>联系方式</text>
+        <text>XXXXXXXXXXX</text>
+      </view>
+    </navigator>
+    <navigator url="#" hover-class="none">
+      <view class="email">
+        <image src="../../images/mine/contact/email.png"></image>
+        <text>关联邮箱</text>
+        <text>XXXXXXXXXX@qq.com</text>
+      </view>
+    </navigator>
+  </view>
+</view>

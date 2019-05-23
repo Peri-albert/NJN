@@ -1,0 +1,30 @@
+/* pages/err-zdj/err-zdj.wxss */
+
+.select_his_order {
+  margin-top: 50rpx;
+  margin-left: 30rpx;
+}
+
+radio-group {
+  margin-top: 50rpx;
+  height: 200rpx;
+  padding-left: 45rpx;
+}
+
+radio-group > view {
+  width: 340rpx;
+  padding-bottom: 15rpx;
+  float: left;
+}
+
+checkbox-group > view radio {
+  padding: 5rpx 20rpx;
+}
+
+textarea {
+  width: 684rpx;
+  margin: 100rpx 0 75rpx 20rpx;
+  border: 3rpx solid #ccc;
+  border-radius: 10rpx;
+  padding: 15rpx;
+}

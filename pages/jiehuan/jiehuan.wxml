@@ -1,0 +1,6 @@
+<view>
+  <view bindtouchend="saoma">
+    <image src="../../images/toolbar/saoma-blue.png"></image>
+    <view class="text">点击扫描</view>
+  </view>
+</view>

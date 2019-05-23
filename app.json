@@ -1,0 +1,56 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/jiehuan/jiehuan",
+    "pages/serve/serve",
+    "pages/mine/mine",
+    "pages/logs/logs",
+    "pages/gzbx/gzbx",
+    "pages/err-umb/err-umb",
+    "pages/err-zdj/err-zdj",
+    "pages/bag/bag",
+    "pages/contact/contact",
+    "pages/map/map",
+    "pages/order/order",
+    "pages/order_info/order_info",
+    "pages/costdetail/costdetail"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "小蓝伞",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "backgroundColor":"#fff",
+    "color": "#A0A0A0",
+    "selectedColor": "#3888ff",
+    "list": [{
+      "iconPath":"images/toolbar/home-grey.png",
+      "selectedIconPath":"images/toolbar/home-blue.png",
+      "pagePath": "pages/index/index",
+      "text": "首页"
+    }, {
+      "iconPath":"images/toolbar/map-grey.png",
+      "selectedIconPath":"images/toolbar/map-blue.png",
+      "pagePath": "pages/map/map",
+      "text": "地图"
+    }, {
+      "iconPath": "images/toolbar/saoma-grey.png",
+      "selectedIconPath": "images/toolbar/saoma-blue.png",
+      "pagePath": "pages/jiehuan/jiehuan",
+      "text": "借伞"
+    }, {
+      "iconPath":"images/toolbar/order-grey.png",
+      "selectedIconPath":"images/toolbar/order-blue.png",
+      "pagePath": "pages/order/order",
+      "text": "订单"
+    }, {
+      "iconPath":"images/toolbar/mine-grey.png",
+      "selectedIconPath":"images/toolbar/mine-blue.png",
+      "pagePath": "pages/mine/mine",
+      "text": "我的"
+    }]
+  }
+}

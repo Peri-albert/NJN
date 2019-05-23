@@ -1,0 +1,33 @@
+/* pages/serve/serve.wxss */
+
+.zdj {
+  text-align: center;
+  width: 100%;
+  margin-top: 135rpx;
+  color: #3888ff;
+}
+
+.zdj image {
+  width: 250rpx;
+  height: 250rpx;
+}
+
+.zdj-text {
+  margin-top: 20rpx;
+}
+
+.order {
+  text-align: center;
+  width: 100%;
+  margin-top: 135rpx;
+  color: #3888ff;
+}
+
+.order image {
+  width: 250rpx;
+  height: 250rpx;
+}
+
+.order-text {
+  margin-top: 20rpx;
+}

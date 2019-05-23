@@ -1,0 +1,22 @@
+<!--pages/bag/bag.wxml-->
+<view class="section">
+  <view class="touxiang">
+    <image src="{{avatar}}"></image>
+  </view>
+  <view class="yue">
+    <view class="yue-money">
+      <text>{{money}}</text>
+    </view>
+    <view class="yue-text">
+      <text>押金(元)</text>
+    </view>
+  </view>
+  <view class="chongzhi">
+    <navigator url="url">
+      <button type="primary" bindtouchend="jnyj">缴纳押金</button>
+    </navigator>
+    <navigator url="url">
+      <button type="warn" bindtouchend="thyj">退还押金</button>
+    </navigator>
+  </view>
+</view>

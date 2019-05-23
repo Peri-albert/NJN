@@ -1,0 +1,16 @@
+/* pages/costdetail/costdetail.wxss */
+.section {
+  padding: 100rpx;
+  text-align: center;
+  background: #fafafa;
+  height: 1006rpx;
+}
+
+.section .box {
+  padding: 20rpx 0;
+}
+
+.section .box text {
+  display: inline-block;
+  padding-bottom: 25rpx;
+}

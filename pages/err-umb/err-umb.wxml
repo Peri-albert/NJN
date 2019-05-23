@@ -1,0 +1,29 @@
+<!--pages/err-umb/err-umb.wxml-->
+<view class="section">
+  <form>
+    <view class="classname">
+      <form>
+        <radio-group bindchange="checkboxChange">
+          <view class="classname">
+            <radio value="value" bindtouchend="selection" data-text="伞面损坏"/>伞面损坏</view>
+          <view class="classname">
+            <radio value="value" bindtouchend="selection" data-text="伞面翘边"/>伞面翘边</view>
+          <view class="classname">
+            <radio value="value" bindtouchend="selection" data-text="伞面遭恶意涂改"/>伞面遭恶意涂改</view>
+          <view class="classname">
+            <radio value="value" bindtouchend="selection" data-text="伞骨歪折"/>伞骨歪折</view>
+          <view class="classname">
+            <radio value="value" bindtouchend="selection" data-text="伞骨生锈严重"/>伞骨生锈严重</view>
+          <view class="classname">
+            <radio value="value" bindtouchend="selection" data-text="伞柄损坏"/>伞柄损坏</view>
+          <view class="classname">
+            <radio value="value" bindtouchend="selection" data-text="伞身信息失效"/>伞身信息失效</view>
+          <view class="classname">
+            <radio value="其他" bindtouchend="other" data-text="其他" checked="{{checked}}"/>其他</view>
+        </radio-group>
+        <textarea placeholder="简要说明" name="textarea" data-text="{{text}}" bindinput="get_text" bindfocus="atfocus"/>
+        <button type="primary" form-type="submit" bindtouchend="ok">确定</button>
+      </form>
+    </view>
+  </form>
+</view>

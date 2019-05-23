@@ -1,0 +1,23 @@
+/* pages/gzbx/gzbx.wxss */
+
+.icon-choose {
+  margin-top: 200rpx;
+}
+
+.icon-choose navigator {
+  width: 240rpx;
+  height: 300rpx;
+  text-align: center;
+  font-size: 1.5em;
+  color: #3888ff;
+  margin: auto;
+}
+
+.icon-choose navigator:nth-child(2) {
+  margin-top: 120rpx;
+}
+
+.icon-choose navigator image {
+  width: 240rpx;
+  height: 240rpx;
+}

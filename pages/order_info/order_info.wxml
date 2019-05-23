@@ -1,0 +1,57 @@
+<!--pages/order_info/order_info.wxml-->
+<view class="section">
+  <view class="time">
+    <view class="time-left">
+      <image src="{{time1}}"></image>
+      <image src="{{time2}}"></image>
+      <image src="{{maohao}}"></image>
+      <image src="{{time3}}"></image>
+      <image src="{{time4}}"></image>
+    </view>
+    <view class="time-text">
+      <text>剩余时间</text>
+    </view>
+  </view>
+  <view class="padding-area"></view>
+  <view class="box">
+    <view class="button" bindtap="changeHeight">
+      <image src="{{image}}"></image>
+    </view>
+    <view class="order" style="height: {{orderheight}}; animation: {{animation}};">
+      <view class="order_1">
+        <view class="order_1_bill">
+          <view class="cost_1"><text>订单消费</text></view>
+          <view class="cost_2"><text>{{money}}</text></view>
+        </view>
+        <view class="order_1_err">
+          <navigator url="../gzbx/gzbx{{url}}">
+            <image src="../../images/order/err.png"></image>
+          </navigator>
+        </view>
+        <view class="order_1_umbnum">
+          <view class="num_1"><text>所借雨伞号</text></view>
+          <view class="num_2"><text>{{umbrella_id}}</text></view>
+        </view>
+      </view>
+      <view class="detail">
+        <view class="timecost">
+          <text>时长费：</text>
+          <text>{{money}}（{{out_time}}）</text>
+        </view>
+        <view class="start_time">
+          <text>起始时间：</text>
+          <text>{{start_time}}</text>
+        </view>
+        <view class="end_time">
+          <text>结束时间：</text>
+          <text>{{end_time}}</text>
+        </view>
+        <view class="cost_detail">
+          <navigator url="../costdetail/costdetail">
+            查看计费详情>
+          </navigator>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

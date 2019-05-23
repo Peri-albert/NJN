@@ -1,0 +1,20 @@
+/* pages/huansan/huansan.wxss */
+view {
+  width: 350rpx;
+  padding: 0;
+  margin: auto;
+  margin-top: 250rpx;
+}
+
+view image {
+  width: 350rpx;
+  height: 350rpx;
+  padding: 0;
+}
+
+.text {
+  width: 350rpx;
+  text-align: center;
+  margin-top: 0;
+  color: #3888ff;
+}

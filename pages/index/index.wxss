@@ -1,0 +1,81 @@
+/**index.wxss**/
+
+.section {
+  /*background-image: url(https://www.sharedumbrella.top/asset/wx_app/images/home/background.png);*/
+  /*background: #000000;*/
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.box {
+  width: 500rpx;
+  height: 150rpx;
+  margin: auto;
+  margin-top: 275rpx;
+}
+
+.data {
+  width:500rpx;
+  height: 150rpx;
+}
+
+.data-weather {
+  margin-left: 100rpx;
+  width: 150rpx;
+  height: 150rpx;
+  background-size: cover;
+  float: left;
+}
+
+.data-location {
+  width: 250rpx;
+  float: left;
+}
+
+.data-location text {
+  display: inline-block;
+  width: 250rpx;
+  color: #3888ff;
+  margin-top: 8rpx;
+  text-align: center;
+}
+
+.temperature {
+  width: 500rpx;
+  font-size: 8em;
+  text-align: center;
+  color: #3888ff;
+}
+
+.loading{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 250rpx;
+  width: 250rpx;
+}
+
+.loading image{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.rotate{
+  animation-name: rotate;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rotate {
+  from {transform:rotate(-90deg);}
+  to {transform:rotate(270deg);}
+}

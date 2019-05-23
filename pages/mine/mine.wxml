@@ -1,0 +1,26 @@
+<view class="section">
+  <view class="touxiang">
+    <image src="{{avatar}}"></image>
+  </view>
+  <view class="menu">
+    <navigator url="../bag/bag" hover-class="none">
+      <view class="bag">
+        <image src="../../images/mine/yue.png"></image>
+        <text>钱包</text>
+        <image src="../../images/mine/jiantou.png"></image>
+      </view>
+    </navigator>
+    <view class="xxts">
+      <image src="../../images/mine/message.png"></image>
+      <text>消息推送</text>
+      <switch checked="{{checked}}" data-status="{{status}}" bindchange="xxts"/>
+    </view>
+    <navigator url="../contact/contact" hover-class="none">
+      <view class="aboutus">
+        <image src="../../images/mine/aboutus.png"></image>
+        <text>联系我们</text>
+        <image src="../../images/mine/jiantou.png"></image>
+      </view>
+    </navigator>
+  </view>
+</view>

@@ -1,0 +1,12 @@
+<view class="section">
+  <view class="icon-choose">
+    <navigator url="../err-umb/err-umb{{uri}}" hover-class="none">
+      <image src="../../images/serve/umbrella-icon.png"></image>
+      <text>雨伞</text>
+    </navigator>
+    <navigator url="../err-zdj/err-zdj{{uri}}" hover-class="none">
+      <image src="../../images/serve/zdj-icon.png"></image>
+      <text>终端机</text>
+    </navigator>
+  </view>
+</view>
